@@ -15,15 +15,15 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## terminologies used 
 <ul>
-<li>*run <em>ng new Quotes<em> in your terminal</li>
-*Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-*Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+<li>run <em>ng new Quotes<em> in your terminal</li>
+<li>Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files</li>
+<li>Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.</li>
 
-*Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+<li>Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.</li>
 
-*Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+<li>Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).</li>
 
-*Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+</li>Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).</li>
 
 ## contact information
 
