@@ -1,9 +1,10 @@
 <div>
-    <h1>My inspirational quotes</h1>
+    <h1>My inspirational quotes!!!</h1>
     <hr>
     <ul>
       <li *ngFor='let Quote of quotes'>
         {{Quote.name }}
+        <app-quote-detail [Quote]='Quote'></app-quote-detail>
       </li>
     </ul>
   </div>
