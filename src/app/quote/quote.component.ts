@@ -8,11 +8,14 @@ import {Quote} from '../quote';
 })
 export class QuoteComponent implements OnInit {
   quotes:Quote []= [
-    { id:1, name: 'A life spent making mistakes is not only more honorable, but more useful than a life spent doing nothing— George Bernhard Shaw', description:'Experiments are necessary for the experiences that create growth and new opportunities.'},
-    {id:2, name: ' You must be the change you wish to see in the world — Gandhi',description:'Live for what’s worth dying for, and leverage technology to create the world you wish to see.'},
-    {id:3, name: 'He who fears he will suffer, already suffers because he fears — Michel De Montaigne',description:'FOMO creates suffering, yet those who suffer, have FOMO.'},
-    {id:4, name: 'Life is really simple, but we insist on making it complicated — Confucius',description:'Life is really simple, but social media has made it complicated.'},
+   new Quote (1, 'A life spent making mistakes is not only more honorable, but more useful than a life spent doing nothing— George Bernhard Shaw','Experiments are necessary for the experiences that create growth and new opportunities'),
+   new Quote (2, ' You must be the change you wish to see in the world — Gandhi','Live for what’s worth dying for, and leverage technology to create the world you wish to see.'),
+   new Quote (3, 'He who fears he will suffer, already suffers because he fears — Michel De Montaigne','FOMO creates suffering, yet those who suffer, have FOMO.'),
+   new Quote (4, 'Life is really simple, but we insist on making it complicated — Confucius','Life is really simple, but social media has made it complicated.'),
   ];
+  toggleDetails(index){
+    this.quotes[index].showDescription= !this.quotes[index].showDescription;
+  }
 
 
   constructor() { }
