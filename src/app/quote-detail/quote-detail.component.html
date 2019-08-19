@@ -1,5 +1,5 @@
 <p> {{Quote.description}}</p>
 <p>this quote was created in {{Quote.completeDate|dateCount}} days</p>
-<button (click)='QuoteComplete(true)' class="btn btn-outline-danger">Delete quote</button>
-<button (click)='Quote.upvotes=Quote.upvotes+1' class="btn btn-outline-danger">Upvote {{Quote.upvotes}} </button>
-<button (click)='Quote.downvotes=Quote.downvotes+1' class="btn btn-outline-danger">Downvote {{Quote.downvotes}}</button>
+<button (click)='Quote.upvotes=Quote.upvotes+1' class="button2">Upvote {{Quote.upvotes}} </button>
+<button (click)='QuoteComplete(true)' type="button" class="button">Delete quote</button>
+<button (click)='Quote.downvotes=Quote.downvotes+1' class="button2">Downvote {{Quote.downvotes}}</button>

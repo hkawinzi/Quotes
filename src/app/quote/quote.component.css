@@ -10,8 +10,3 @@ h1 {
   text-align: center;
   padding-top: 10px;
 }
-.container{
-    background-image: url(/src/assets/img.jpg);
-    background-repeat: no-repeat;
-    background-position: cover;
-}
