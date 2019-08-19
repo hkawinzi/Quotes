@@ -1,1 +1,17 @@
-@import "~bootstrap/dist/css/bootstrap.css"
+@import "~bootstrap/dist/css/bootstrap.css";
+h1 {
+    font-family: 'Courgette';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  background-image: linear-gradient(to bottom right ,#D4D7DD,#EAE9E9);
+  height:100px;
+  width: 100%;
+  text-align: center;
+  padding-top: 10px;
+}
+.container{
+    background-image: url(/src/assets/img.jpg);
+    background-repeat: no-repeat;
+    background-position: cover;
+}

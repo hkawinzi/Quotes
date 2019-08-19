@@ -7,7 +7,8 @@ Happiness Kawinzi
 #### date-month-year
 10-08-2019
 
-
+#### description
+this is a webpage that enables one to add a quote onto existing quotes.one can upvote or downvote quotes also.
 
 ## Project setup instructions
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.1.
