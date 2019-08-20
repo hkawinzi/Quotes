@@ -1,13 +1,15 @@
-<div class="container">
+<body>
+  <div class="container">
+
     <h1>My inspirational quotes!!!</h1>
     <hr>
-  
+
     <div class="row">
       <div class="col-md-6">
         <div *ngFor='let Quote of quotes;let i=index'>
           <div>
             <h4 id={{i}} appStrikethrough>{{Quote.name }} due on {{Quote.completeDate|date}} </h4>
-            <button (click)='toggleDetails(i)' class="btn btn-primary">ToggleDetails</button>
+            <button (click)='toggleDetails(i)' class="btn btn-info">ToggleDetails</button>
           </div>
           <div *ngIf="Quote.showDescription">
             <app-quote-detail [Quote]='Quote' (isComplete)='deleteQuote($event,i)'></app-quote-detail>
@@ -19,3 +21,4 @@
       </div>
     </div>
   </div>
+</body>

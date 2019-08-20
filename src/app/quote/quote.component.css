@@ -1,4 +1,7 @@
 @import "~bootstrap/dist/css/bootstrap.css";
+.logo {
+  width: 100%;
+}
 h1 {
     font-family: 'Courgette';
   font-style: normal;
@@ -10,3 +13,4 @@ h1 {
   text-align: center;
   padding-top: 10px;
 }
+
